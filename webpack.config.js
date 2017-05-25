@@ -24,5 +24,9 @@ module.exports = {
             filename: 'build/index.html',
             template: './index.html'
         })
-    ]
+    ],
+    devServer: {
+        inline: true,
+        contentBase: "build/"
+    }
 }
